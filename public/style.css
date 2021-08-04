@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  overflow: hidden;
+}
+
+body {
+  filter: brightness(80%);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01073865290819.5d61d475f0072.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+
+.pg-title {
+  color: #333;
+  text-transform: uppercase;
+  width: 30vw;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 750%;
+  font-family: "VT323", monospace;
+}
+.pg-button {
+  height: 50px;
+  width: 500px;
+  margin: 25px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #333;
+  font-family: "VT323", monospace;
+  margin-left: 27vw;
+}
