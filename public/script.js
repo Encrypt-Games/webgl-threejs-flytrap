@@ -1,6 +1,15 @@
 window.onload = function () {
-  init();
-  animate();
-};
+  const gamesButton = document.getElementById("games");
+  const statsButton = document.getElementById("stats");
+  const leadsButton = document.getElementById("leads");
 
-var init = new (function () {})();
+  gamesButton.onclick = function () {
+    console.log("games clicked");
+  };
+  statsButton.onclick = function () {
+    console.log("stats clicked");
+  };
+  leadsButton.onclick = function () {
+    console.log("leads clicked");
+  };
+};
